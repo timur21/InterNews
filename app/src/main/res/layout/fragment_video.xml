@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapps"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/header"
+                android:text="НЕ ОТ НАШЕГО ИМЕНИ"
+                android:textSize="22sp"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Youtube Видео"
+                android:textSize="14sp"
+                android:textColor="#52BAFF"
+                android:layout_marginTop="6dp"
+                android:layout_below="@id/header"/>
+
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:src="@drawable/contact"/>
+
+        </RelativeLayout>
+
+        <GridLayout
+            android:columnCount="1"
+            android:rowCount="3"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="15dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/cardVideo1"
+                    android:orientation="horizontal"
+                    android:padding="16dp"
+                    android:gravity="left|center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:src="@drawable/logo"
+                        android:layout_width="140dp"
+                        android:layout_height="100dp"
+                        />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:layout_margin="5dp"
+                            android:text="@string/title_first"
+                            android:textColor="#6f6f6f"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:paddingTop="10dp"
+                            android:text="Youtube Материал"
+                            android:textColor="#6f6f6f" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="15dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/cardVideo2"
+                    android:orientation="horizontal"
+                    android:padding="16dp"
+                    android:gravity="left|center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:src="@drawable/logo"
+                        android:layout_width="140dp"
+                        android:layout_height="100dp"
+                        />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:layout_margin="5dp"
+                            android:text="@string/title_second"
+                            android:textColor="#6f6f6f"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:paddingTop="10dp"
+                            android:text="Youtube Материал"
+                            android:textColor="#6f6f6f" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="15dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/cardVideo3"
+                    android:orientation="horizontal"
+                    android:padding="16dp"
+                    android:gravity="left|center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:src="@drawable/logo"
+                        android:layout_width="140dp"
+                        android:layout_height="100dp"
+                        />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:layout_margin="5dp"
+                            android:text="@string/title_third"
+                            android:textColor="#6f6f6f"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:paddingTop="10dp"
+                            android:text="Youtube Материал"
+                            android:textColor="#6f6f6f" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="15dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/cardVideo4"
+                    android:orientation="horizontal"
+                    android:padding="16dp"
+                    android:gravity="left|center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:src="@drawable/logo"
+                        android:layout_width="140dp"
+                        android:layout_height="100dp"
+                        />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:layout_margin="5dp"
+                            android:text="@string/title_fourth"
+                            android:textColor="#6f6f6f"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:paddingTop="10dp"
+                            android:text="Youtube Материал"
+                            android:textColor="#6f6f6f" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="15dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/cardVideo5"
+                    android:orientation="horizontal"
+                    android:padding="16dp"
+                    android:gravity="left|center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:src="@drawable/logo"
+                        android:layout_width="140dp"
+                        android:layout_height="100dp"
+                        />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:layout_margin="5dp"
+                            android:text="@string/title_fifth"
+                            android:textColor="#6f6f6f"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:paddingTop="10dp"
+                            android:text="Youtube Материал"
+                            android:textColor="#6f6f6f" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="15dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/cardVideo6"
+                    android:orientation="horizontal"
+                    android:padding="16dp"
+                    android:gravity="left|center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:src="@drawable/logo"
+                        android:layout_width="140dp"
+                        android:layout_height="100dp"
+                        />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:layout_margin="5dp"
+                            android:text="@string/title_six"
+                            android:textColor="#6f6f6f"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:paddingTop="10dp"
+                            android:text="Youtube Материал"
+                            android:textColor="#6f6f6f" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </GridLayout>
+    </LinearLayout>
+
+</ScrollView>

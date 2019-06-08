@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ContentActivity">
+
+
+
+    <view
+        class="com.google.android.youtube.player.YouTubePlayerView"
+        id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/youtubePlay"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/v_tags"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="#Алматы #Жезказган #Сирия"
+            android:padding="10dp"
+            android:textColor="#3EA6FF"
+            />
+
+        <TextView
+            android:id="@+id/v_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Религиозная ситуация в Казахстане | Не от нашего имени" />
+
+        <TextView
+            android:id="@+id/v_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="18dp"
+            android:text="Из Казахстана на войну в Сирию уехало около 600 человек. Молодые люди из #Алматы и Жезказганского района, в котором эта проблема стоит остро, собрались поделиться опытом и обсудить религиозную ситуацию в регионах и мегаполисе." />
+    </LinearLayout>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_collapseMode="pin"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+
+    <WebView
+        android:id="@+id/web_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_insert_comment_white_24dp" />
+
+
+
+
+
+
+</LinearLayout>

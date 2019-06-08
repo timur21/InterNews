@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">InterNews</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_first">Религиозная ситуация в Казакстане</string>
+    <string name="content_first">Из Казахстана на войну в Сирию уехало около 600 человек. Молодые люди из #Алматы и Жезказганского района, в котором эта проблема стоит остро, собрались поделиться опытом и обсудить религиозную ситуацию в регионах и мегаполисе.</string>
+    <string name="title_second">Как сказать ребенку, что мама в Сирии? | Не от нашего имени</string>
+    <string name="title_third">Война в Сирии и насильственный экстремизм | НЕ ОТ НАШЕГО ИМЕНИ</string>
+    <string name="title_fourth">Не от нашего имени»: четвертый выпуск (Казахстан)</string>
+    <string name="title_fifth">Трагедии граждан Таджикистана | Не от нашего имени</string>
+    <string name="title_six">«Не от нашего имени»: юг Кыргызстана</string>
+    <string name="title_activity_comments">Comments</string>
+    <string name="action_comment">Comment</string>
+    <string name="action_refresh">Reload</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
